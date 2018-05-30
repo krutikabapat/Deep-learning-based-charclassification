@@ -50,8 +50,8 @@ listFont = ['AvantGarde-Book','AvantGarde-BookOblique','AvantGarde-Demi'
   'NewCenturySchlbk-Italic',
    'NewCenturySchlbk-Roman',]
 
-listf =random.choice(listFont) # Randomly choose Font
-gravity =['south','north','east'] # randomly place the Text in Image
+#listf =random.choice(listFont) # Randomly choose Font
+#gravity =['south','north','east'] # randomly place the Text in Image
 
 
 list_files=(os.listdir('/home/krutika/Downloads/background_images/check'))
@@ -79,7 +79,7 @@ for i in range(0,len(list_files)):
 ## Keep all colors of font as white ******
 
 
-for i in range(0,len(list3)): # To generate 1000 images oe each character ans store it in folder named "name_of_character" recursively
+for i in range(0,len(list3)): # To generate 1000 images oe each character and store it in folder named "name_of_character" recursively
 	directory = "/home/krutika/Desktop/Final_test/"
 	char = list3[i]
 	directory = directory + str(char) + "/"
@@ -89,9 +89,12 @@ for i in range(0,len(list3)): # To generate 1000 images oe each character ans st
 		print("Directory made")
 		
 	for j in range(0,1000):
-		list_filernd = random.choice(list_files) # Randonly select the background
+		list_filernd = random.choice(list_files) # Randomly select the background
+		listf =random.choice(listFont)
+		gv = random.choice(gravity)
+		
 		command =  "magick convert " + str(list_filernd) + " -fill White -font "+ \
-            str(listf) + " -weight 200 -pointsize 12 -gravity south " + "-blur " + str(blur_e) \
+            str(listf) + " -weight 200 -pointsize 12 -gravity "+ str(gv) " + " -blur " + str(blur_e) \
 + " -evaluate Gaussian-noise " + str(GN) +  " " + " -annotate +0+0 "+  str(list3[i]) + " " + "output_file"+str(i)+".jpg"
 		os.system(str(command))
 		
