@@ -66,7 +66,7 @@ list_files = ['/home/krutika/Downloads/background_images/check/' + x for x in li
 
 for i in range(0,len(list_files)):
 		command ="magick convert "+ str(list_files[i])+ " -resize 32x32\! "+ str(list_files[i])
-		print(command)ssss
+		print(command)
 		os.system(str(command))
 
 # To generate images with a random font and a random Background
@@ -94,7 +94,7 @@ for i in range(0,len(list3)): # To generate 1000 images oe each character and st
 		gv = random.choice(gravity)
 		
 		command =  "magick convert " + str(list_filernd) + " -fill White -font "+ \
-            str(listf) + " -weight 200 -pointsize 12 -gravity "+ str(gv) " + " -blur " + str(blur_e) \
+            str(listf) + " -weight 200 -pointsize 12 -gravity "+ str(gv)  + " -blur " + str(blur_e) \
 + " -evaluate Gaussian-noise " + str(GN) +  " " + " -annotate +0+0 "+  str(list3[i]) + " " + "output_file"+str(i)+".jpg"
 		os.system(str(command))
 		
