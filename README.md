@@ -29,8 +29,9 @@ Now,using CNN, train the network.
 # Errors, Issues:-
 1.For softmax to work properly,use tensorflow version 1.4.0 and above(1.7 is preferred, for othere below this, following error comes
   **TypeError: softmax() got an unexpected keyword argument 'axis'.**
+  
 2. For using GPU, CUDA 9.0 supports tensorflow 1.4 
-3. In case the classification is for more than 2 classes, use learning rate of the order of 10^-3 to 10^-5.
+3. In case the classification is for more than two classes, use learning rate of the order of 10^-3 to 10^-5.
 
 
 
