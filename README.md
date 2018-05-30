@@ -1,7 +1,7 @@
-# Project_Work
-Problem Statement:-
+### Project_Work
+**Problem Statement:-**
 
-TASK 1:-
+##**TASK 1:-**
 
 Generate 32 cross 32 pixel Images, 1000 each for 10 characters[0,1,2...9] and for 26 Alphabets[A,B........Z] using ImageMagick's "convert" function by writing code in Python_Script(not using command line directly).
 
@@ -11,15 +11,15 @@ Generate 32 cross 32 pixel Images, 1000 each for 10 characters[0,1,2...9] and fo
 4.Add a random amount of blur and noise to the training images. The amount of blur should not be very high to make the character unreadable. 
 
 
-TASK 2:-
+##**TASK 2:-**
 
 Using the 36000 images generated,use 80% for training purpose and 20% for test data for Image Clasification.
 Now,using CNN, train the network.
 
 
-Output of Task:-
+**Output of Task:-**
 
-1. Trained and tested the model with Accuracy of 97.3 percent and loss of 0.03 percent.
+1. Trained and tested the model with Accuracy of **97.3 percent and loss of 0.03 percent.**
 
 
 
