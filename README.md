@@ -12,9 +12,9 @@ Generate 32 cross 32 pixel Images, 1000 each for 10 characters (0,1,2, ... ,9) a
 
 4.Add a random amount of blur and noise to the training images. The amount of blur should not be very high to make the character unreadable. 
 
-5. Using the 36000 images generated,use 80% for training purpose and 20% for test data for Image Clasification.
+5.Using the 36000 images generated,use 80% for training purpose and 20% for test data for Image Clasification.
 
-6. Now, using a suitable CNN type, we have to train the data. 
+6.Now, using a suitable CNN type, we have to train the data. 
 
 **Output of Task 1**
 
