@@ -22,9 +22,9 @@ Generate 32 cross 32 pixel Images, 1000 each for 10 characters (0,1,2, ... ,9) a
 
 **References**
 
-1.https://www.learnopencv.com/image-classification-using-convolutional-neural-networks-in-keras/
-2.https://www.pyimagesearch.com/2016/08/01/lenet-convolutional-neural-network-in-python/
-3.http://cs231n.github.io/convolutional-networks/
+1. https://www.learnopencv.com/image-classification-using-convolutional-neural-networks-in-keras/
+2. https://www.pyimagesearch.com/2016/08/01/lenet-convolutional-neural-network-in-python/
+3. http://cs231n.github.io/convolutional-networks/
 
 **Errors, Issues**
 
