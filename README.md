@@ -28,7 +28,7 @@ Generate 32 cross 32 pixel Images, 1000 each for 10 characters (0,1,2, ... ,9) a
 
 **Errors, Issues**
 
-1.For softmax to work properly,use tensorflow version 1.4.0 and above(1.7 is preferred, for othere below this, following error comes
+1. For softmax to work properly,use tensorflow version 1.4.0 and above(1.7 is preferred, for othere below this, following error comes
   **TypeError: softmax() got an unexpected keyword argument 'axis'.**
   
 2. For using GPU, CUDA 9.0 supports tensorflow 1.4 
