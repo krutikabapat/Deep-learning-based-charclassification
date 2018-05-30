@@ -21,6 +21,17 @@ Now,using CNN, train the network.
 
 1. Trained and tested the model with Accuracy of **97.3 percent and loss of 0.03 percent.**
 
+# References:-
+1.https://www.learnopencv.com/image-classification-using-convolutional-neural-networks-in-keras/
+2.https://www.pyimagesearch.com/2016/08/01/lenet-convolutional-neural-network-in-python/
+3.http://cs231n.github.io/convolutional-networks/
+
+# Errors, Issues:-
+1.For softmax to work properly,use tensorflow version 1.4.0 and above(1.7 is preferred, for othere below this, following error comes
+  **TypeError: softmax() got an unexpected keyword argument 'axis'.**
+2. For using GPU, CUDA 9.0 supports tensorflow 1.4 
+3. In case the classification is for more than 2 classes, use learning rate of the order of 10^-3 to 10^-5.
+
 
 
 
