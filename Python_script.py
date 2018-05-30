@@ -77,8 +77,8 @@ for i in range(0,len(list_files)):
 ## Keep all colors of font as white ******
 
 
-for i in range(0,2): # To generate 1000 images oe each character and store it in folder named "name_of_character" recursively
-	directory = "/home/krutika/Desktop/man/"
+for i in range(0,len(list3)): # To generate 1000 images of each character and store it in folder named "name_of_character" recursively
+	directory = "/home/krutika/Desktop/project/"
 	char = list3[i]
 	directory = directory + str(char) + "/"
 	
