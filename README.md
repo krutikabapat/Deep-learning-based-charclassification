@@ -1,6 +1,7 @@
 # Project Work    
 
-## Blog Link: https://www.learnopencv.com/deep-learning-character-classification-using-synthetic-dataset/    
+### Blog Link:   
+1. https://www.learnopencv.com/deep-learning-character-classification-using-synthetic-dataset/      
 
 **TASK 1**
 
